@@ -1,0 +1,163 @@
+html{ 
+    scroll-behavior: smooth;
+}
+body{font-family:Verdana, Geneva, Tahoma, sans-serif
+margin:0;
+text-align:centre;
+}
+/*top container*/
+.top-container { background-color:olive;
+position: relative;
+padding-top:100px;
+}
+.top-container h1{
+    color:black;
+    font-size: 5.625 rem;
+    margin: 5px auto 0 auto;
+    font-family: 'sacrameto' ,cursive
+}
+h2{
+    color:rgb(31, 77, 163);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+/*middle container*/
+.profile img{ height: 250px;}
+.intro { width: 30%;}
+h3{ color: cornflowerblue;
+font-family: sans-serif;}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted
+    border-bottom: none;
+    width: 4%;
+    margin:100px auto;
+}
+@media  only screen and (max-width:600px){
+body{ align-items: centre;
+}
+.mountain{ width: 100%;}
+.into {width: 90%;
+font-size: 20px;}
+}
+/*nav bar*/
+.navbar{ 
+    height: 50px;
+    box-shadow: cornsilk  0px 3px 3px;
+    background-color:papayawhip;
+    position:fixed;
+    z-index: 10000;
+    width:100%;
+
+
+}.navbar ul{ float:right;
+}
+.navbar ul li{ display: inline-block;
+margin:0 10 px;
+}
+.navbar ul li{ diasplay: inline-block;
+margin: 0 10px;
+}
+.navbar li a{
+    color: rgba(red, green, blue, alpha);
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    text-decoration:none;
+
+}
+.navbara:hover{
+    color: rgba(red, green, blue, alpha);
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+/*responsive nav bar*/
+li{ list-style-type: none;}
+nav input { display: none}
+i{ display: none;
+margin:10px;
+}
+/*.resrev{ display:none;
+}*/
+@media  screen and (max-width:780px)
+ {.block{ height:250px;
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}
+@media (max-width:940px) {
+    .logo img {
+        height:50px;
+        float:left;
+    }
+    .resrev { display:block;
+    background-color:saddlebrown;
+    position:fixed;
+    width:100%;
+    height:50px;
+    z-index:10000;
+    box-shadow:rgba(red, green, blue, alpha)(0,0,0,24);0px 3px 8px;
+}
+label{ float:right;
+}
+.resrev ul{ text-align:center;
+position:fixed;
+background-color: rosybrown;
+top:50px;
+left: -120px;
+width:100%;
+margin:0 auto;
+display:inline-block;
+transition:all 0.3s ease;
+z-index:100000;
+box-shadow:rgba(red, green, blue, alpha) (0,0,0,24); 0px 3px 8px;
+}
+
+.resrev li a{
+    color:rgba(red, green, blue, alpha)(255,219,219);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+#clicked:checked ~ul { left: -8%;}
+#click:checked~ul{ lefy :-8%
+}
+#click:checked~.menu-butt is before{
+    content:"\food";
+}
+
+
+
+}
+    
+}
+
+    
+}
+
+
+    
+}
+</------------------cuisine---------->
+.cuisine-row{ 
+width:50%;
+margin:100px auto 100px auto;
+text-align:left;
+box-shadow::rgba(red, green, blue, alpha)(0,0,0,24);
+padding:20px;
+border: radius 20px;
+background-color:#fff;
+}
+
+#littichokha {width: 400px}
+
+}
+#festival-row img {width: 300px;
+}
+#culture {width:600px;}

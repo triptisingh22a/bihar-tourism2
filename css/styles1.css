@@ -1,0 +1,55 @@
+<!DOCTYPPE html>
+<htmllang="en">
+
+<head>
+<meta charset="UTF-8"/>
+
+<!--scroll animation-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>tripti singh </title>
+<!-- css -->
+
+
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="icon" href="css/favicon.ico" />
+
+<!-- google fonts -->
+<link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@300&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+    <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+
+  <!-- https://www.favicon.cc/  drew the animation and download -->
+  </head>
+  <body>
+  <nav class=resrev>
+  <input type="checkbox id="click">
+  <label for="click" class="menu button"></label><i class="fass fa-bars fa-2x"> </i><label for=""></label><
+  <ul>
+  <li><a href="#home">home</li>
+  <li><a href="#about_me">About me></a></li>
+  <li><a href="#skills">skills</a></li>
+  <li><a href="#certification">certification</a></li>
+  <li><a href="#projects">projects</a></li>
+  <li><a href="#contact_me">contacts</a></li>
+  </ul>
+  </nav>
+  <div class="top-container" id="home">
+  <h1> This is Tripti</h1>
+  <h2> web developer</h2>
+  <img class="andriod" src="images/andriod.png"
+  </div>
+
+<!-- scroll annimations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+
+</html>
+
